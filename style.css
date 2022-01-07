@@ -9,7 +9,7 @@ h1{
     color: orange;
 }
 section{
-    display: flex;/*elements inside section will stay in flexible way*/
+    display: flex;/*elements inside section will stay in flexible way,will put the div's serially one after another*/
 }
 .half-width{
     width: 50%;
@@ -39,7 +39,7 @@ section{
     background-position: right;
     padding-left: 10px;
 }
-#fixing{
+.fixing{
     width: 80%;
     text-align: justify;
     padding-right: 40%;
