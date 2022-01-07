@@ -8,7 +8,7 @@ h1{
 .diff_color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;/*elements inside section will stay in flexible way,will put the div's serially one after another*/
 }
 .half-width{
@@ -43,4 +43,33 @@ section{
     width: 80%;
     text-align: justify;
     padding-right: 40%;
+}
+.experience-area {
+    
+    padding-bottom: 50px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.experience-preference{
+    width: 50%;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 5px 40px grey;
+    
+    
+}
+#first-border-color{
+    border-left: 5px solid ;
+    border-image: linear-gradient(red, tomato) 30;
+}
+#second-border-color{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan
+    ) 30;
+}
+footer p{
+    text-align: center;
 }
